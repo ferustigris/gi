@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Log</class>
+ <widget class="QWidget" name="Log">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Журнал сообщений</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPlainTextEdit" name="plainTextEdit"/>
+   </item>
+  </layout>
+  <action name="actionAClear">
+   <property name="icon">
+    <iconset resource="../share/res.qrc">
+     <normaloff>:/icons/new</normaloff>:/icons/new</iconset>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+   <property name="toolTip">
+    <string>Clear window</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../share/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
